@@ -1,0 +1,248 @@
+/* --- Global Css ---- */
+:root{
+    --btn-primary: #1111d7;
+    --navbar-color: #020818;
+    --bg-color: #fffffff5;
+    --form-bg: #f5f5f58e;
+    --text-color: #484848e8;
+    --sub-heading-color: #3f3e3e;
+    --placeholder-color: #b3b3b392;
+    --footer-text-color: #cccbcb8b;
+    --large-font: 3rem;
+    --small-font: .5rem;
+    --title-font-size: 2rem;
+    --header-font-size: 1rem;
+    --sub-heading-size: 1.5rem;
+    
+}
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 400px;
+}
+
+
+
+/* header section */
+.header-nav{
+    background-color: #020818;
+    padding: 1rem;
+}
+
+.header-navlist{
+    display: flex;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.header-nav a{        
+    color: var(--bg-color);
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.header-nav a:hover{
+    background-color: var(--bg-color);
+    color: var(--navbar-color);
+}
+
+#active{
+    background-color: var(--bg-color);
+    color: var(--navbar-color);
+    margin: 1rem;
+    padding: 1rem
+}
+
+header{
+    background-image: url(/assets/images/pictures/IMG_0473.JPG);
+    background-position: center;
+    color: var(--bg-color);
+    padding: 8rem 10rem;
+}
+
+h1{
+    text-transform: uppercase;    
+    font-size: 2rem;
+}
+
+/* --- end header section --- */
+
+
+/* --- about section --- */
+
+
+main{
+    /* background-image: url(/assets/images/pictures/IMG_0472.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    padding: 0 10rem;
+}
+
+section{
+    padding: 4rem 5rem;
+}
+
+.about-row{       
+    height: 50vh;
+}
+
+.about-content{
+    margin: auto 0px;
+    padding: 2rem;
+}
+
+/* background-colors */
+
+.grey{
+    background-color: #cdcdcd1a;
+}
+
+.light{
+    background-color: #bedbd833;
+}
+
+.red{
+    background-color: rgba(88, 96, 134, 0.075);
+}
+
+
+
+/* end background colors */
+
+
+/* background hover */
+
+.about-content:hover{
+    background-color: rgba(9, 169, 86, 0.107);
+    box-shadow: 2px 2px 10px rgb(154, 153, 153);
+}
+
+
+
+
+/* End background hover */
+
+
+.title{
+    margin: 2rem 0;
+}
+
+.title h2{
+    color: rgb(20, 144, 144);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    
+}
+
+
+.text{
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+span{
+    color: rgb(20, 144, 144);
+    font-weight: 600;
+}
+
+
+/* --- end about --- */
+/* --- form --- */
+
+.form{
+    background-color:var(--bg-color);
+    max-width: 600px;
+    min-width: 400px;
+    margin: 1rem auto;
+}
+
+.form-content{
+    background-color: var(--form-bg);
+    color: var(--text-color);
+    padding: 2rem;
+}
+
+.logo{
+    width: 6rem;
+    margin: 1rem auto;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.form-header p{
+    padding: 1rem 0;
+}
+
+.form-body{
+    padding: 2rem 0;
+}
+
+
+
+
+select, input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: .5rem 0;
+    padding: .8rem .5rem;
+    border: 1.5px solid var(--placeholder-color);
+    border-radius: .2rem;
+    
+}
+
+ input::placeholder, select::placeholder{
+    font-size: 1.2rem;
+    color: var(--placeholder-color);
+    text-transform: capitalize;
+}
+
+.required::after{
+    content: "*";
+    color: red;
+
+}
+
+/* end of form  */
+
+/* --- buttons ----*/
+
+.alt-school-btn{
+    background-color: var(--btn-primary);
+    color: #fff;
+    margin: 1rem 0;
+    padding: .5rem;
+    width: 10rem;
+    border: none;
+    border-radius: .2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

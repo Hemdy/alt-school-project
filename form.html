@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alt_school Form</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/reponsive.css">
+</head>
+<body>
+    <nav class="header-nav">
+        <ul class="header-navlist">
+            <li class="nav-item"><a href="./index.html" class="header-navlink">About</a></li>
+            <li class="nav-item"><a href="./form.html" class="header-navlink" id="active">Form</a></li>
+        </ul>
+    </nav>
+    <form action="get" class="form">
+        <div class="form-content">
+            <div class="logo">
+                <img src="/assets/images/logo/altschool-africa-seeklogo.com-3.svg" alt="">
+            </div>
+            <div class="form-header">
+                <h1 class="f-title">Application Form</h1>
+                <p>Fill in your details</p>
+            </div>
+    
+            <div class="form-body">
+                <!-- first name -->
+                <label for="name" class="required" >First Name</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter first name" required>
+                <br>
+    
+                <!-- last name -->
+                <label for="last-name" class="required" >Last Name</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter last name" required>
+                <br>
+    
+                <!-- Gender -->
+                <label for="gender" class="required" >Gender</label>
+                <br>
+                <select name="" id="">
+                    <option value="gender"></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+                <br> 
+    
+                <!-- D.O.B -->
+                <label for="DOB" class="required" >Date of Birth</label>
+                <br>
+                <input type="date" name="DOB" id="">
+                <br>
+    
+                <!-- Email -->
+                <label for="mail" class="required" >Email Address</label>
+                <br>
+                <input type="email" name="email" placeholder="Enter email address" required >
+                <br>
+    
+                <!-- education level -->
+                <label for="level of edu" class="required" >Education Level</label>
+                <br>
+                <select name="level">
+                    <option value="level"></option>
+                    <option value="bachelors">Bsc</option>
+                    <option value="masters">MSc</option>
+                    <option value="Phd">Phd</option>
+                </select>
+                <br>
+    
+                <!-- country -->
+                <label for="country" class="required" >Country</label>
+                <br>
+                <select name="countries" id="countries">
+                    <option value="country"></option>
+                    <option value="arg">Argentina</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="usa">United States of America</option>
+                    <option value="Uk">United kingdom</option>
+                </select>
+                <br>
+    
+                <!-- City of residence -->
+                <label for="title" class="required">City of Residence</label>
+                <br>
+                <input type="text" name="city" id="" placeholder="Enter your state of residence" required>
+                <br>
+
+                <!-- employment Status -->
+                <label for="title" class="required" >Employment Status</label>
+                <br>
+                <select name="employment" id="employment">
+                    <option value="" disabled="disabled" > Select employement status</option>
+                    <option value="employed">Employed</option>
+                    <option value="selfemployed">Self-emplpoyed</option>
+                    <option value="unemployed">Unemployed</option>
+                </select>
+                <br>
+    
+                <!-- phone number -->
+                <label for="title" class="required">Phone Number</label>
+                <br>
+                <input type="number" name="phone" id="" placeholder="08154387000" required>
+                <br>
+    
+                <!-- school -->
+                <label for="title" class="required">Choose School</label>
+                <br>
+                <select name="school" id="" aria-valuetext="select school">
+                    <option value="select school"></option>
+                    <option value="School of Engineering">School Of Engineering</option>
+                    <option value="School of Data">School Of Data</option>
+                </select>
+                <br>
+    
+                <!-- course of study -->
+                <label for="title" class="required">Choose Course of Study</label>
+                <br>
+                <select name="school" id="">
+                    <option value="frontend">frontend Engineering</option>
+                    <option value="frontend">backend Engineering</option>
+                    <option value="frontend">cloud Engineering</option>
+                </select>
+                <br>
+    
+                <!-- how did you hear -->
+                <label for="title" class="required">How did you hear about us</label>
+                <br>
+                <select name="" id="">
+                    <option value="Select channel">Facebook</option>
+                    <option value="Select channel">twitter</option>
+                    <option value="Select channel">Whatsapp</option>
+                    <option value="Select channel">friend</option>
+                </select>
+                <br>
+    
+                <!-- scholarship -->
+                <label for="title">Scholarship/Discount Code (optional)</label>
+                <br>
+                <input type="text" name="" id="" placeholder="Scholarship or student ID or discount codes">
+            </div>
+    
+            <div class="form-footer">
+                <p>By clicking continue, i agree to <a href="#">Terms of Use</a> and acknowledge that i have read the <a href="#">Privacy Policy.</a></p>
+                <button type="submit" class="alt-school-btn">Proceed</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

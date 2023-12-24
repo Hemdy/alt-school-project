@@ -1,0 +1,184 @@
+body{
+    background-color: #e5e5e5;
+    min-width: 400px;
+}
+body p{
+    margin: 0;
+    color: gray;
+}
+main{
+    background-color: #e5e5e5;
+    width: 1440px;
+    min-width: 400px;
+    padding: 5rem;
+    
+
+}
+
+
+/* ----- design Container ----- */
+
+.container{
+    background-color: #f7fdfc;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 5rem;
+    height: 840px;
+}
+
+.left-container, .right-container{
+    padding: 2rem;
+}
+
+.left{
+    margin: 10rem 5rem;
+    width: 460px;
+    height: 275px;
+}
+
+
+.left-body{
+    max-width: 400px;
+}
+
+p{
+    color: #4a4848d5;
+}
+
+/* ----------- Start form --------- */
+
+form{
+    background-color: #ffffff;
+    width: 580px;
+    height: 679px; 
+    padding: 1rem;
+    box-shadow:  2px 2px 40px 15px rgba(24, 24, 24, 0.119);
+}
+
+.form{
+    width: 238px;
+    height: 72px;
+    margin: .5rem 0;
+}
+.form-content{
+    width: 100%;
+}
+
+.form-header .form-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.form-header .filled, .focused{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.form-body{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.fullwidth{
+    width: 510px;
+    height: 72px;
+    margin: .5rem auto;
+}
+
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    margin: .5rem 0;
+    padding: .5rem .3rem;
+    border: 1px solid #a8a8a88f;
+    outline: none;
+}
+
+select option[disabled]{
+    color: #a8a8a88f;
+}
+
+input[type=text]:focus{
+    border: 2px solid #3fc6c6;
+}
+
+
+::placeholder{
+    color: #8685856d;
+}
+
+
+
+.form-btn{
+    background-color:  #2ec4b6;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 100%;
+}
+
+.form-footer{
+    text-align: center;
+}
+
+span a{
+    color: #3fc6c6;
+}
+
+
+/* media querry */
+
+@media screen and (max-width: 896px) {
+
+   main{
+    width: 100%;
+    padding: 0;
+
+   }
+
+
+    .container{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-width: auto;
+    }
+
+    .left, .right{
+        margin: 0;
+        width: 100%;
+    }
+
+
+
+    form{
+        width: auto;
+        height: auto;
+    }
+    .form{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .form-row, .form-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-body{
+        margin: 0;
+    }
+
+    .fullwidth{
+        width: 100%;
+    }
+
+}
